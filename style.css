@@ -1,0 +1,90 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    color: #333;
+}
+
+h1 {
+    color: #E85D04;
+    font-style: italic;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #D44000;
+    text-decoration: underline;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    color: #A83200;
+}
+
+img {
+    width: 280px;
+    margin: 10px auto;
+    display: block;
+}
+
+.name {
+    color: #E85D04;
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 10px 0 5px 0;
+}
+
+.bio {
+    color: #333;
+    margin: 5px auto;
+    max-width: 500px;
+}
+
+.section-title {
+    color: #E85D04;
+    font-style: italic;
+    font-size: 1.3em;
+    margin: 20px 0 10px 0;
+}
+
+.skill-box {
+    border: 1px solid #E85D04;
+    max-width: 520px;
+    margin: 10px auto;
+    padding: 15px 20px;
+    text-align: left;
+    border-radius: 2px;
+}
+
+.skill-name {
+    color: #E85D04;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.skill-box p {
+    margin: 0;
+    color: #333;
+}
+
+a[href^="mailto"] {
+    color: #D44000;
+}
+
+ul {
+    text-align: left;
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
